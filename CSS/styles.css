@@ -195,7 +195,7 @@ backdrop-filter: blur(10.5px);
 #RH_homebase_heading {
     display: flex;
     justify-content: center;    
-    width:500px;
+    width:900px;
     justify-self: center;
 }
 #RH_homebase_content {
@@ -222,7 +222,7 @@ backdrop-filter: blur(10.5px);
 #PR_homebase_heading {
     display: flex;
     justify-content: center;    
-    width:500px;
+    width:740px;
     justify-self: center;
 }
 #PR_homebase_content {
@@ -270,7 +270,7 @@ a:hover {
 }
 .timeline-box {
     width: 80%;
-    height:200px;
+    height:auto;
     display: flex;
     justify-content: space-evenly;
 }
@@ -282,7 +282,7 @@ a:hover {
     align-items: center;
 }
 .timeline-date h2 {
-    width:140px;
+    width:200px;
     height: 70px;
     display: flex;
     justify-content: center;
@@ -294,15 +294,24 @@ a:hover {
     -webkit-backdrop-filter: blur(10.5px);
 }
 .timeline-content {
-    width:500px;
+    width:550px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    gap:-5px;
+    align-items: flex-start;
     background: rgba(255, 255, 255, 0.18);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10.5px);
     -webkit-backdrop-filter: blur(10.5px);
+}
+.timeline-desc-h{
+    padding-bottom: 0px;
+}
+.timeline-desc-p {
+    padding-top: 0px;
+    line-height: 35px;
 }
 /*research*/
 #research-container{
@@ -317,8 +326,8 @@ a:hover {
     gap:20px;
 }
 .research_desc{
-    width:300px;
-    height: 200px;
+    width:500px;
+    height: 430px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -338,7 +347,7 @@ a:hover {
 .research-heading h2 {
     font-size: 20px;
     font-weight: 500;
-    width:300px;
+    width:450px;
     height:auto;
     display: flex;
     align-items: center;
@@ -399,7 +408,7 @@ a:hover {
     gap: 20px;
 }
 .container{
-    width:80%;
+    width:100%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -422,7 +431,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    width:300px;
+    width:500px;
 }
 .testimony-quote {
     font-style: italic;
@@ -437,4 +446,43 @@ a:hover {
     width:500px;
     display: flex;
     justify-content: center;
+}
+
+/* Box size */
+#RH_exo {
+    max-width: 500px;
+}
+#PR_LiO {
+    max-width: 500px;
+}
+.tall {
+    padding: 10px;
+    line-height: 40px;
+}
+h3 {
+    padding-left: 5px;
+}
+h2 {
+    padding-left: 5px;
+}
+/* Award container */
+.award-name-container{
+    width:400px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#award-container {
+    width:1260px;
+    height: auto;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+h5 {
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
 }
